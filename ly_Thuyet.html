@@ -12,6 +12,56 @@ TT value: Giá trị của trường dữ liệu
 TT type: Loại trường dữ liệu(text,password,...)
 type="submit" tạo nút bấm xác nhận ấn vào nó sẽ gửi dữ liệu về seversever , value="submit": giá trị của nút bấm
 type="reset": tạo ra nút reset dữ liệu nhập vào.
+type="button" có thể kêt họp với javascrip
 Lưu ý: Dữ liệu được gửi lên sever dưới dạng các cặp tên giá trị
 Chẳng hạn: name=John
+
+Input Hidden
+Dùng để chứa giá trị của form nhưng không hiển thị trên giao diện người dùng.
+Dữ liệu này cũng được đẩy lên server như bình thường. 
  -->
+
+ <!-- 
+     Thuộc tính method quy định cách thức dữ liệu được gửi lên server. Có 2 cách thức thường được sử dụng đó là POST và GET.
+     Thường sử dụng post vì nó an toàn và ta có thể gửi dữ liệu nhạy cảm mà không sợ lộ
+ -->
+
+ <!-- 
+     Chúng ta có thể sử dụng thẻ <fieldset> và thẻ <legend> để nhóm các dữ liệu của biểu mẫu lại với nhau.
+  -->
+  <fieldset>
+      <legend></legend>
+  </fieldset>
+
+  <!-- 
+      Thẻ button
+Thẻ button được sử dụng để hiển thị một nút.
+
+Bên trong thẻ button thì chúng ta có thể đưa các nội dung khác vào, chẳng hạn như là chuỗi hoặc hình ảnh.
+Đây cũng chính là sự khác biệt so với việc sử dụng thẻ input button,
+bởi vì bên trong input button thì chỉ có thể chứa text.
+   -->
+   <button></button>
+   <!-- 
+       Thẻ textarea
+Thẻ textarea được sử dụng để hiển thị trường nhập chuỗi dài (nhiều dòng).
+    -->
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+
+<!-- 
+    <hr> phân tách thẻ theo chiều ngang
+ -->
+
+ <!-- 
+     Thẻ <select> được sử dụng chung với thẻ <option> để tạo một danh sách drop-down hoặc list, cho phép chọn một hoặc nhiều hạng mục từ một danh sách có sẵn.
+
+Chúng ta cùng phân biệt giữa một số điều khiển:
+
+checkbox: lựa chọn nhiều hạng mục từ một danh sách
+
+radio: lựa chọn một hạng mục từ một danh sách. Hiển thị toàn bộ danh sách cho người dùng thấy ngay từ đầu. Sử dụng tốt trong trường hợp có ít lựa chọn.
+drop-down: lựa chọn một hạng mục từ một danh sách. Chỉ hiển thị hạng mục hiện tại được chọn, còn lại các hạng mục khác đều bị ẩn. Toàn bộ danh sách chỉ hiển thị khi người dùng click chuột vào.
+
+list: lựa chọn nhiều hạng mục từ một danh sách.
+  -->
+
