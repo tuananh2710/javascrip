@@ -1,0 +1,15 @@
+.col25{
+width: 15%;
+display: inline-block;
+}
+.col75{
+width: 85%;
+}
+.row{
+   float: right;
+   
+}
+form{
+    background-color: yellow;
+    padding:8px 8px;
+}
