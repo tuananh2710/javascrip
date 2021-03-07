@@ -1,0 +1,32 @@
+.yellow{
+    background-color: yellow;
+}
+.orange{
+    background-color:orange;
+}
+.col{
+    display: inline-block;
+}
+.row{
+    float:right;
+    text-align: right;
+}
+#title div{
+padding: 3px 20px;
+color:royalblue;
+}
+#title > h1{
+    text-align: center;
+    color: blue;
+}
+#title  table  th,
+#title  table  td {
+    border: 1px solid #000;
+padding: 8px 0px;
+}
+
+#title table{
+    border-collapse: collapse;
+    width: 100%;
+   
+}
